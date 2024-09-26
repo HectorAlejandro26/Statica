@@ -1,5 +1,4 @@
 ﻿using Fuerzas.Utils;
-using System.Numerics;
 
 namespace Fuerzas
 {
@@ -68,7 +67,7 @@ namespace Fuerzas
         {
 			return f switch
 			{
-				VectorStrFormat.Cartesiana => $"({FuerzaX:.00}, {FuerzaY:.00})",
+				VectorStrFormat.Cartesiana => $"({FuerzaX:0.##}, {FuerzaY:0.##})",
 				VectorStrFormat.Tabla => 
                                 $" V = {ToString(VectorStrFormat.Polar)}\n" +
 								$"Qᶜᵗ: {Cuadrante.Format()}\n" +
@@ -76,7 +75,7 @@ namespace Fuerzas
 								$"  θ: {Angulo}\n" +
 								$" 𝐹x: {FuerzaX}\n" +
 								$" 𝐹y: {FuerzaY}\n",
-				_ => $"{Magnitud:.00}∠{Angulo:.00}°",
+				_ => $"{Magnitud:0.##}∠{Angulo:0.##}°",
 			};
 		}
         public override string ToString() => ToString(VectorStrFormat.Polar);

@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleCLI", "ConsoleCLI\ConsoleCLI.csproj", "{915F94BE-CF6D-4775-9354-FB773ACA1E12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleCLI", "ConsoleCLI\ConsoleCLI.csproj", "{915F94BE-CF6D-4775-9354-FB773ACA1E12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fuerzas", "Fuerzas\Fuerzas.csproj", "{1661477D-DEFE-41A4-B637-C71DF900A9A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fuerzas", "Fuerzas\Fuerzas.csproj", "{1661477D-DEFE-41A4-B637-C71DF900A9A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algebra", "Algebra\Algebra.csproj", "{B66DEC3E-AA68-40E5-B8E5-905C480D89FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1661477D-DEFE-41A4-B637-C71DF900A9A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1661477D-DEFE-41A4-B637-C71DF900A9A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1661477D-DEFE-41A4-B637-C71DF900A9A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B66DEC3E-AA68-40E5-B8E5-905C480D89FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B66DEC3E-AA68-40E5-B8E5-905C480D89FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B66DEC3E-AA68-40E5-B8E5-905C480D89FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B66DEC3E-AA68-40E5-B8E5-905C480D89FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
